@@ -45,22 +45,24 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
+    li{
+        padding: 0px 10px;
+    }
+    a{
+        color: #ffffff;
+        text-decoration: none;
+
+
+    }
+    a:hover{
+        color:#fcb900;
+    }
+    
     
 }
 
-.lista li{
-    
-    padding: 0px 10px;
-   
 
 
-
-}
-.lista a{
-
-    color: #ffffff;
-    text-decoration: none;
-}
 
 
 .logo img {
@@ -93,21 +95,28 @@ footer{
     display: flex;
     list-style-type: none;
     padding: 0px 10px;
+    li{
+        padding: 0px 30px;
+    }
     
 
 
 }
 
-.foot li {
 
-    padding: 0px 30px;
-}
 
-.pie a{
+.pie {
 
-    color: #ffffff;
-    text-decoration: none;
-    
+    a{
+
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
+    a:hover{
+        color: #fcb900;
+
+    }
 }
 
 .navegar{
@@ -124,22 +133,19 @@ footer{
     background-position: center;
     background-attachment:fixed ;
     flex-direction: column;
+    a::first-letter{
+        text-transform: uppercase;
+        /* idea de stack overflow */
+    
+    }
     
     
    
   
 }
-.navegar a::first-letter{
 
-    text-transform: uppercase;
-    /* idea de stack overflow */
 
-}
 
-.caja a::first-letter{
-
-    text-transform: uppercase;
-}
 
 .titulo{
 
@@ -189,11 +195,6 @@ text-transform: uppercase;
     background-color: #292828;
     display: flex;
     flex-direction: column;
-
-
-}
-
-.eventos{
     color:#fff;
     display: flex;
     justify-content: center;
@@ -201,8 +202,11 @@ text-transform: uppercase;
     text-align: center;
     justify-content: center;
     align-items: center;
-   
+
+
 }
+
+
 .ordenc{
     display: flex;
     flex-direction: row;
@@ -220,34 +224,26 @@ text-transform: uppercase;
     background-color: rgb(49, 54, 54);
     text-align: center;
     margin: 40px;
+    a::first-letter{
+
+        text-transform: uppercase;
+    }
+    a{
+
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    h4{
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 10px;
+    }
+
 
 }
-.caja h4{
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 10px;
-}
-
-.caja a{
-
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.nosotros{
 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 450px;
-    width: 100%;
-    background-color: #fcb900;
-    display: flex;
-    flex-direction: column;
-    font-weight: 800;
 
-}
 .foto{
     display: flex;
     justify-content: center;
@@ -263,34 +259,48 @@ text-transform: uppercase;
     background-attachment:fixed ;
     flex-direction: column;
     padding-bottom: 20px;
-
+    p{
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 10px;
+        color: #fff;
+    
+    
+    
+    }
 
 
 }
 
-.foto p{
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 10px;
-    color: #fff;
+.nosotros{
 
 
-
-}
-
-
-
-.nosotros .titulo{
-    color: #0e0d0d;
-
-}
-.nosotros .pa{
-
-    color: #0e0d0d;
-    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    background-color: #fcb900;
+    display: flex;
+    flex-direction: column;
     font-weight: 800;
-    text-transform: uppercase;
+    .titulo{
+        color: #0e0d0d;
+    
+    }
+    .pa{
+
+        color: #0e0d0d;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
 }
+
+
+
+
 
 .caja-foto {
 
@@ -300,13 +310,17 @@ text-transform: uppercase;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    img{
+
+        display: grid;
     
+        width: 300px;
+        height: 300px;
     
-
-
-
+    }
     
 }
+
 .perfil{
     display: grid;
     grid-template-columns: 2fr ;
@@ -315,14 +329,7 @@ text-transform: uppercase;
 
 }
 
-.caja-foto img{
 
-display: grid;
-
-    width: 300px;
-    height: 300px;
-
-}
 .caja-fotouno{
 
 padding-right: 490px;
@@ -345,7 +352,17 @@ padding-bottom:300px ;
     background-color: #fcb900;
     padding: 30px 30px 30px 30px;
     border: 10px solid #292828;
+    h2 {
+
+        text-transform: uppercase;
+        padding-bottom: 25px;
+    }
+    a {
+
+        font-size: 19px;
+        font-weight: 600;
     
+    }
 
 
 }
@@ -360,19 +377,21 @@ padding-bottom:300px ;
     background-color: #fcb900;
     padding: 30px 30px 30px 30px;
     border: 10px solid #292828;
+
+    h2 {
+
+        text-transform: uppercase;
+        padding-bottom: 25px;
+    }
+    a {
+
+        font-size: 19px;
+        font-weight: 600;
+    
+    }
+    
 }
 
-.us h2 {
-
-    text-transform: uppercase;
-    padding-bottom: 25px;
-}
-
-.uss h2 {
-
-    text-transform: uppercase;
-    padding-bottom: 25px;
-}
 
 
 .nos{
@@ -418,35 +437,27 @@ padding-bottom:300px ;
     flex-direction: column;
     font-weight: 800;
 
-}
+    .titulo{
+        color: #fcb900;
+    
+    }
+    .pa{
 
-.nosotrosc .titulo{
-    color: #fcb900;
+        color: #fcb900;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
 
-}
-.nosotrosc .pa{
-
-    color: #fcb900;
-    font-size: 25px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-
-
-.uss a {
-
-    font-size: 19px;
-    font-weight: 600;
 
 }
 
-.us a {
 
-    font-size: 19px;
-    font-weight: 600;
 
-}
+
+
+
+
 
 .cajon{
 
@@ -473,18 +484,18 @@ padding-bottom:300px ;
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    p {
+
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #ffffff;
+    }
 
 }
 
-.cajo p {
-
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #ffffff;
-}
 .eve{
 
     width: 220px;
@@ -517,14 +528,13 @@ padding-bottom:300px ;
 .row{
     padding-top: 100px;
     margin-bottom: 40px;
+
+    div{
+        margin-top:100px ;
+        margin-bottom: 100px;
+    }
 }
-.row div{
-margin-top:100px ;
-margin-bottom: 100px;
 
-
-
-}
 .container{
 
 
@@ -540,11 +550,7 @@ margin-bottom: 100px;
     font-weight: 800px;
     margin-bottom: 20px;
 }
-.pho{
 
-    margin-bottom: 40px;
-}
-    
 .ordea{
     width: 500px;
 
@@ -599,6 +605,26 @@ margin-bottom: 100px;
     padding-right: 20px;
     margin-top: 200px;
     margin-bottom: 200px;
+    h4{
+
+        margin-top: 15px;
+        
+        margin-left: 20px;
+        margin-right: 20px;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    a{
+    
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
     
 
 }
@@ -637,28 +663,12 @@ margin-bottom: 100px;
 
     height: 200px;
     width: 200px;
-}
-
-.cajaa h4{
-
-    margin-top: 15px;
+    margin-bottom: 40px;
     
-    margin-left: 20px;
-    margin-right: 20px;
-    text-transform: uppercase;
-    font-size: 25px;
-    font-weight: 600;
+        
 }
-.cajaa a{
 
-    margin-top: 15px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 18px;
-    font-weight: 600;
 
-}
 .contactar{
 
     background-color: #363636;
@@ -672,18 +682,16 @@ margin-bottom: 100px;
     flex-direction: column;
     font-weight: 800;
     font-size: 13px;
+    input{
+
+        margin:20px 20px 20px 20px;
+
+    }
 
 
 }
 
-.enviar input{
 
-
-    margin:20px 20px 20px 20px;
-
-
-
-}
 
 .sen{
 
@@ -760,6 +768,27 @@ background-color: #363636;
         padding-right: 10px;
         margin-top: 100px;
         margin-bottom: 100px;
+        h4{
+
+            margin-top: 20px;
+            
+            margin-left: 20px;
+            margin-right: 20px;
+            text-transform: uppercase;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        a{
+    
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 19px;
+            font-weight: 600;
+        
+        }
+
         
     
     }
@@ -775,27 +804,6 @@ background-color: #363636;
     }
 
 
-
-    .cajaa h4{
-
-        margin-top: 20px;
-        
-        margin-left: 20px;
-        margin-right: 20px;
-        text-transform: uppercase;
-        font-size: 26px;
-        font-weight: 600;
-    }
-    .cajaa a{
-    
-        margin-top: 10px;
-        margin-bottom: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 19px;
-        font-weight: 600;
-    
-    }
 
     .cajon{
 
@@ -845,14 +853,14 @@ background-color: #363636;
         padding-top: 150px;
         font-weight: 800;
         font-size: 18px;
+        a{
+            padding-top: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     
-    }
-    .ordea a{
-        padding-top: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     
     .ordeb{
@@ -919,19 +927,19 @@ background-color: #363636;
         justify-content: left;
         align-items: start;
         left: -100%;
-        
+        li{
+
+            display: block;
+            margin: 50px 0;
+            line-height: 5px;
+            font-size: 20px;
+    
+        }      
         
 
 
     }
-    .lista li{
 
-        display: block;
-        margin: 50px 0;
-        line-height: 5px;
-        font-size: 20px;
-
-    }
     #check:checked ~ .lista{
         
         left:0 ;
@@ -1036,13 +1044,20 @@ background-color: #363636;
 
 @media (max-width:487px){
 
+    .saveme{
+        display: none;
+    }
+    .sub{
+        font-weight: 900;
+    }
+
     .cajaa{
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    
+        
         height: 300px;
         width: 200px;
         background-color:#fcb900;
@@ -1052,6 +1067,27 @@ background-color: #363636;
         padding-right: 10px;
         margin-top: 100px;
         margin-bottom: 100px;
+        h4{
+
+            margin-top: 20px;
+            
+            margin-left: 20px;
+            margin-right: 20px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        a{
+    
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        
+        }
+    
         
     
     }
@@ -1066,26 +1102,6 @@ background-color: #363636;
         padding-bottom: 20px;
     }
 
-    .cajaa h4{
-
-        margin-top: 20px;
-        
-        margin-left: 20px;
-        margin-right: 20px;
-        text-transform: uppercase;
-        font-size: 20px;
-        font-weight: 600;
-    }
-    .cajaa a{
-    
-        margin-top: 10px;
-        margin-bottom: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 13px;
-        font-weight: 600;
-    
-    }
 
     .us{
 
@@ -1097,7 +1113,17 @@ background-color: #363636;
         background-color: #fcb900;
         padding: 10px 10px 10px 10px;
         border: 5px solid #292828;
+        h2 {
+    
+            text-transform: uppercase;
+            padding-bottom: 15px;
+        }
+        a {
+    
+            font-size: 13px;
+            font-weight: 600;
         
+        }
     
     
     }
@@ -1112,33 +1138,23 @@ background-color: #363636;
         background-color: #fcb900;
         padding: 10px 10px 10px 10px;
         border: 5px solid #292828;
-    }
-    
-    .us h2 {
-    
-        text-transform: uppercase;
-        padding-bottom: 15px;
-    }
-    
-    .uss h2 {
-    
-        text-transform: uppercase;
-        padding-bottom: 15px;
-    }
 
-    .uss a {
+        h2 {
+    
+            text-transform: uppercase;
+            padding-bottom: 15px;
+        }
+    
+        a {
+    
+            font-size: 13px;
+            font-weight: 600;
+        
+        }
+    }
+    
 
-        font-size: 13px;
-        font-weight: 600;
     
-    }
-    
-    .us a {
-    
-        font-size: 13px;
-        font-weight: 600;
-    
-    }
 
     .cajap{
 
@@ -1176,16 +1192,21 @@ background-color: #363636;
     
     
     }
-    .nosotrosc .titulo{
+    .nosotrosc {
 
-        font-size: 30px;
+        .titulo{
+
+            font-size: 30px;
+        
+        }
+        .pa{
     
+            font-size: 19px;
+         
+        }
+
     }
-    .nosotrosc .pa{
     
-        font-size: 19px;
-     ;
-    }
     .orde{
         display: none;
     }
