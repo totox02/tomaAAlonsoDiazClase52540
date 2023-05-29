@@ -547,13 +547,7 @@ footer {
     background-color: #fcb900;
   }
 }
-@media (max-height: 990px) {
-  .orden div {
-    display: none;
-    padding-bottom: 200px;
-  }
-}
-@media (max-height: 900px) {
+@media (max-height: 870px) {
   #disa {
     display: none;
   }

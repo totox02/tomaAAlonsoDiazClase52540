@@ -474,6 +474,7 @@ padding-bottom:300px ;
 .cajo{
 
     display: flex;
+
     flex-direction: column;
     justify-content: start;
     align-items: center;
@@ -741,23 +742,14 @@ background-color: #363636;
     }
     
 }
-@media (max-height:990px){
 
-    .orden{
-        div{
-            display: none;
-            padding-bottom:200px ;
-        }
-        
 
-    }
-}
-
-@media (max-height:900px){
+@media (max-height:870px){
 
     #disa{
         display: none;
     }
+  
 }
 
 @media (max-width:1440px) {
@@ -1265,5 +1257,6 @@ background-color: #363636;
         padding-bottom: 300px;
     }
 }
+
 
  /* lascse "." se repiten y los id"#" no, son solo pa una cosa*/
