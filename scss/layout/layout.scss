@@ -538,9 +538,9 @@ padding-bottom:300px ;
 .container{
 
 
-    margin-left: 105%;
-    margin-right: 25%;
-    padding-bottom: 100px;
+  
+    
+    padding-bottom: 50px;
 }
 
 .saveme{
@@ -734,6 +734,32 @@ background-color: #363636;
     
 }
 
+@media (min-width:1600px) {
+    #need{
+        background-color: #fcb900;
+        
+    }
+    
+}
+@media (max-height:990px){
+
+    .orden{
+        div{
+            display: none;
+            padding-bottom:200px ;
+        }
+        
+
+    }
+}
+
+@media (max-height:900px){
+
+    #disa{
+        display: none;
+    }
+}
+
 @media (max-width:1440px) {
 
     .ordenb{
@@ -839,6 +865,7 @@ background-color: #363636;
         width: 100%;
         background-color: #fcb900;
         padding-top: 0px;
+
     }
     
         
@@ -874,6 +901,7 @@ background-color: #363636;
         padding-top: 450px;
         font-weight: 800;
         font-size: 18px;
+        
     
     }
     .cajo{
@@ -884,8 +912,17 @@ background-color: #363636;
 
         padding-bottom: 100px;
     }
+    .nosotrosc{
+
+        margin-top: 15vh ;
+        
+    }
+    #need{
+        background-color: #fcb900;
+    }
     
 }
+
 
 
 @media (max-width:1100px) {
@@ -913,6 +950,7 @@ background-color: #363636;
 
         display: block;
         cursor: pointer;
+        
     }
     .lista{
 
@@ -924,21 +962,24 @@ background-color: #363636;
         
         text-align: center;
         flex-direction: column;
-        justify-content: left;
+        justify-content: right;
         align-items: start;
         left: -100%;
+        transition: all .75s;
         li{
 
             display: block;
             margin: 50px 0;
             line-height: 5px;
             font-size: 20px;
+           
     
         }      
         
 
 
     }
+
 
     #check:checked ~ .lista{
         
@@ -1048,7 +1089,7 @@ background-color: #363636;
         display: none;
     }
     .sub{
-        font-weight: 900;
+        display: none;
     }
 
     .cajaa{
@@ -1221,7 +1262,7 @@ background-color: #363636;
     }
     .cajon{
 
-        padding-bottom: 700px;
+        padding-bottom: 300px;
     }
 }
 

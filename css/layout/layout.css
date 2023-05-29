@@ -391,9 +391,7 @@ footer {
 }
 
 .container {
-  margin-left: 105%;
-  margin-right: 25%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .saveme {
@@ -544,6 +542,22 @@ footer {
   display: none;
 }
 
+@media (min-width: 1600px) {
+  #need {
+    background-color: #fcb900;
+  }
+}
+@media (max-height: 990px) {
+  .orden div {
+    display: none;
+    padding-bottom: 200px;
+  }
+}
+@media (max-height: 900px) {
+  #disa {
+    display: none;
+  }
+}
 @media (max-width: 1440px) {
   .ordenb {
     display: flex;
@@ -663,6 +677,12 @@ footer {
   .cajon {
     padding-bottom: 100px;
   }
+  .nosotrosc {
+    margin-top: 15vh;
+  }
+  #need {
+    background-color: #fcb900;
+  }
 }
 @media (max-width: 1100px) {
   .caja {
@@ -692,9 +712,10 @@ footer {
     top: 80px;
     text-align: center;
     flex-direction: column;
-    justify-content: left;
+    justify-content: right;
     align-items: start;
     left: -100%;
+    transition: all 0.75s;
   }
   .lista li {
     display: block;
@@ -781,7 +802,7 @@ footer {
     display: none;
   }
   .sub {
-    font-weight: 900;
+    display: none;
   }
   .cajaa {
     display: flex;
@@ -900,7 +921,7 @@ footer {
     display: none;
   }
   .cajon {
-    padding-bottom: 700px;
+    padding-bottom: 300px;
   }
 }
 /* lascse "." se repiten y los id"#" no, son solo pa una cosa*/
