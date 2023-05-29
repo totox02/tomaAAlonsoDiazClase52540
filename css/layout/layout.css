@@ -111,7 +111,7 @@ footer {
   align-items: center;
   height: 700px;
   width: 100%;
-  background-size: 500%;
+  background-size: 100%;
   background-image: url(https://images.pexels.com/photos/5556540/pexels-photo-5556540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-position: center;
@@ -539,6 +539,30 @@ footer {
   margin: 20px 20px 20px 20px;
 }
 
+.checkse h5 {
+  color: #363636;
+}
+
+#cheese:checked ~ .checkse {
+  display: all;
+  background-color: #363636;
+  padding-bottom: 10px;
+}
+#cheese:checked ~ .checkse h5 {
+  color: #fff;
+}
+
+.sizes {
+  margin-top: 20px;
+  height: 80px;
+  width: 140px;
+  cursor: pointer;
+}
+
+#cheese {
+  display: none;
+}
+
 .sen {
   border: 5px solid #292828;
   height: 60px;
@@ -552,9 +576,12 @@ footer {
   margin-top: 20px;
 }
 
-#boton {
+#boto {
   height: 50px;
   width: 100px;
+  background-color: #292828;
+  color: #fff;
+  margin-bottom: 60px;
 }
 
 .contactar h3 {

@@ -1,4 +1,6 @@
 $lista: ('uno': 30px, 'dos': 30px, 'tres': 30px);
+$dis: none;
+
 
 
 
@@ -146,7 +148,7 @@ footer{
     align-items: center;
     height: 700px;
     width: 100%;
-    background-size: 500%;
+    background-size: 100%;
     background-image:url(https://images.pexels.com/photos/5556540/pexels-photo-5556540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
     background-repeat: no-repeat;
    
@@ -715,6 +717,45 @@ padding-bottom:300px ;
 
 }
 
+@mixin pop($color, $text){
+    h5{
+        
+        color:$text;
+    }
+    background-color: $color;
+    padding-bottom: 10px
+
+}
+
+.checkse{
+
+    h5{
+        color: #363636;
+    }
+}
+
+#cheese:checked ~ .checkse{
+    display: all;
+
+    @include pop(#363636, #fff);
+
+}
+
+.sizes{
+    margin-top: 20px;
+    height: 80px;
+    width: 140px;
+    cursor: pointer;
+}
+#cheese{
+
+        display: none;
+}
+
+
+
+
+
 
 
 .sen{
@@ -733,10 +774,13 @@ padding-bottom:300px ;
 
 }
 
-#boton{
+#boto{
 
     height: 50px;
     width: 100px;
+    background-color: #292828;
+    color: #fff;
+    margin-bottom: 60px;
 }
 .contactar h3{
 
