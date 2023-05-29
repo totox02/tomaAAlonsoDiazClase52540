@@ -1,3 +1,7 @@
+$lista: ('uno': 30px, 'dos': 30px, 'tres': 30px);
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -102,6 +106,19 @@ footer{
 
 
 }
+.creative{
+    height: 60px;
+
+}
+
+@each $nombre, $tama in $lista{
+    .red-#{$nombre}{
+        height: $tama;
+        width: $tama;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
 
 
 
@@ -117,6 +134,10 @@ footer{
         color: #fcb900;
 
     }
+}
+
+.redes{
+    background-color: #292828;
 }
 
 .navegar{
@@ -224,6 +245,8 @@ text-transform: uppercase;
     background-color: rgb(49, 54, 54);
     text-align: center;
     margin: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     a::first-letter{
 
         text-transform: uppercase;
