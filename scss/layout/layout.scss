@@ -837,7 +837,7 @@ background-color: #363636;
    
 }
 #check{
-    display: block;
+    display: none;
     
 }
 
@@ -855,6 +855,9 @@ background-color: #363636;
 @media (max-height:870px){
 
     #disa{
+        display: none;
+    }
+    #check{
         display: none;
     }
   

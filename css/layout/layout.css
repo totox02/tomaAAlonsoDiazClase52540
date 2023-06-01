@@ -628,7 +628,7 @@ footer {
 }
 
 #check {
-  display: block;
+  display: none;
 }
 
 @media (min-width: 1600px) {
@@ -638,6 +638,9 @@ footer {
 }
 @media (max-height: 870px) {
   #disa {
+    display: none;
+  }
+  #check {
     display: none;
   }
 }
