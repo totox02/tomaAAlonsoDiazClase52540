@@ -30,13 +30,16 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+
 .lista li {
   padding: 0px 10px;
 }
+
 .lista a {
   color: #ffffff;
   text-decoration: none;
 }
+
 .lista a:hover {
   color: #fcb900;
 }
@@ -50,13 +53,16 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+
 .listab li {
   padding: 0px 10px;
 }
+
 .listab a {
   color: #ffffff;
   text-decoration: none;
 }
+
 .listab a:hover {
   color: #fcb900;
 }
@@ -92,6 +98,7 @@ footer {
   list-style-type: none;
   padding: 0px 10px;
 }
+
 .foot li {
   padding: 0px 30px;
 }
@@ -125,6 +132,7 @@ footer {
   color: #ffffff;
   text-decoration: none;
 }
+
 .pie a:hover {
   color: #fcb900;
 }
@@ -146,6 +154,7 @@ footer {
   background-attachment: fixed;
   flex-direction: column;
 }
+
 .navegar a::first-letter {
   text-transform: uppercase;
   /* idea de stack overflow */
@@ -216,13 +225,16 @@ footer {
   margin-left: 30px;
   margin-right: 30px;
 }
+
 .caja a::first-letter {
   text-transform: uppercase;
 }
+
 .caja a {
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .caja h4 {
   font-size: 25px;
   text-transform: uppercase;
@@ -244,6 +256,7 @@ footer {
   flex-direction: column;
   padding-bottom: 20px;
 }
+
 .foto p {
   font-size: 25px;
   text-transform: uppercase;
@@ -262,9 +275,11 @@ footer {
   flex-direction: column;
   font-weight: 800;
 }
+
 .nosotros .titulo {
   color: #0e0d0d;
 }
+
 .nosotros .pa {
   color: #0e0d0d;
   font-size: 25px;
@@ -279,6 +294,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .caja-foto img {
   display: grid;
   width: 300px;
@@ -312,10 +328,12 @@ footer {
   padding: 30px 30px 30px 30px;
   border: 10px solid #292828;
 }
+
 .us h2 {
   text-transform: uppercase;
   padding-bottom: 25px;
 }
+
 .us a {
   font-size: 19px;
   font-weight: 600;
@@ -331,10 +349,12 @@ footer {
   padding: 30px 30px 30px 30px;
   border: 10px solid #292828;
 }
+
 .uss h2 {
   text-transform: uppercase;
   padding-bottom: 25px;
 }
+
 .uss a {
   font-size: 19px;
   font-weight: 600;
@@ -372,9 +392,11 @@ footer {
   flex-direction: column;
   font-weight: 800;
 }
+
 .nosotrosc .titulo {
   color: #fcb900;
 }
+
 .nosotrosc .pa {
   color: #fcb900;
   font-size: 25px;
@@ -406,6 +428,7 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .cajo p {
   margin-bottom: 20px;
   margin-left: 20px;
@@ -446,6 +469,7 @@ footer {
   padding-top: 100px;
   margin-bottom: 40px;
 }
+
 .row div {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -506,6 +530,7 @@ footer {
   margin-top: 200px;
   margin-bottom: 200px;
 }
+
 .cajaa h4 {
   margin-top: 15px;
   margin-left: 20px;
@@ -514,6 +539,7 @@ footer {
   font-size: 25px;
   font-weight: 600;
 }
+
 .cajaa a {
   margin-top: 15px;
   margin-bottom: 30px;
@@ -548,9 +574,9 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  height: 300px;
-  width: 300px;
-  margin-bottom: 30px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 40px;
 }
 
 .contactar {
@@ -566,6 +592,7 @@ footer {
   font-weight: 800;
   font-size: 13px;
 }
+
 .enviar input {
   margin: 20px 20px 20px 20px;
 }
@@ -579,6 +606,7 @@ footer {
   background-color: transparent;
   padding-bottom: 10px;
 }
+
 #cheese:checked ~ .checkse h5 {
   color: #fff;
 }
@@ -628,7 +656,7 @@ footer {
 }
 
 #check {
-  display: block;
+  display: none;
 }
 
 @media (min-width: 1600px) {
@@ -806,9 +834,6 @@ footer {
     line-height: 5px;
     font-size: 20px;
   }
-  #check:checked ~ .lista {
-    left: 0;
-  }
   .listab {
     position: fixed;
     width: 100%;
@@ -828,7 +853,7 @@ footer {
     line-height: 5px;
     font-size: 20px;
   }
-  #check:checked ~ .listab {
+  #check:checked ~ .lista {
     left: 0;
   }
   .ordenb {
@@ -873,9 +898,6 @@ footer {
   }
 }
 @media (max-width: 770px) {
-  .fs-5 {
-    font-size: 10px;
-  }
   .pho {
     margin-top: 40px;
     height: 130px;
@@ -906,10 +928,6 @@ footer {
   }
 }
 @media (max-width: 487px) {
-  .pho {
-    padding: auto;
-    margin: auto;
-  }
   .saveme {
     display: none;
   }
@@ -1038,4 +1056,5 @@ footer {
 }
 /* lascse "." se repiten y los id"#" no, son solo pa una cosa*/
 
-/*# sourceMappingURL=app.css.map */
+
+/*# sourceMappingURL=layout.css.map */

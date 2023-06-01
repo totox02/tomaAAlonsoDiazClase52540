@@ -610,7 +610,10 @@ padding-bottom:300px ;
     color: #0e0d0d;
     font-weight: 800px;
     margin-bottom: 20px;
+    
 }
+
+
 
 .ordea{
     width: 500px;
@@ -722,12 +725,13 @@ padding-bottom:300px ;
     margin-right: auto;
     margin-top: 40px;
 
-    height: 200px;
-    width: 200px;
-    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
     
         
 }
+
 
 
 .contactar{
@@ -833,7 +837,7 @@ background-color: #363636;
    
 }
 #check{
-    display: none;
+    display: block;
     
 }
 
@@ -1046,8 +1050,8 @@ background-color: #363636;
 
         display: block;
         cursor: pointer;
-        
     }
+
     .lista{
 
         position: fixed;
@@ -1075,6 +1079,13 @@ background-color: #363636;
 
 
     }
+
+    #check:checked ~ .lista{
+        
+        left:0 ;
+
+    }
+    
 
     .listab{
 
@@ -1104,12 +1115,14 @@ background-color: #363636;
 
     }
 
-
-    #check:checked ~ .lista{
+    #check:checked ~ .listab{
         
         left:0 ;
 
     }
+
+
+
     .ordenb{
 
         display: flex;
@@ -1167,7 +1180,10 @@ background-color: #363636;
 }
 
 @media (max-width:770px){
+    .fs-5{
 
+        font-size: 10px;
+    }
     .pho{
         margin-top: 40px;
     
@@ -1209,7 +1225,12 @@ background-color: #363636;
 
 @media (max-width:487px){
 
+    .pho{
+        padding: auto;
+        margin: auto;
+    }
     .saveme{
+
         display: none;
     }
     .sub{
@@ -1266,6 +1287,7 @@ background-color: #363636;
 
         padding-bottom: 20px;
     }
+
 
 
     .us{
