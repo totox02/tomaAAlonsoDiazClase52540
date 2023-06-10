@@ -398,7 +398,7 @@ footer {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: auto;
+  height: 300px;
   width: 300px;
   background-color: #363636;
   margin-top: 100px;
@@ -636,12 +636,21 @@ footer {
     background-color: #fcb900;
   }
 }
-@media (max-height: 870px) {
+@media (max-height: 900px) {
   #disa {
     display: none;
   }
   #check {
     display: none;
+  }
+  .cajon {
+    margin-bottom: 900px;
+  }
+  #need {
+    width: 100%;
+  }
+  .nosotrosc {
+    width: 100%;
   }
 }
 @media (max-width: 1440px) {
@@ -702,7 +711,7 @@ footer {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 150%;
+    height: 100%;
     width: 100%;
     background-color: #fcb900;
     padding-top: 0px;
